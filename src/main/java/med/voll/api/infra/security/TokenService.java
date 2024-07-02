@@ -50,7 +50,7 @@ public class TokenService {
             System.out.println(exception.toString());
         }
         if (verifier.getSubject() == null) {
-            throw new RuntimeException("Verifier invalido");
+           throw new RuntimeException("Verifier invalido");
         }
         return verifier.getSubject();
     }
